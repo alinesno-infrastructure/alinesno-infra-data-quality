@@ -12,7 +12,7 @@
     <packaging>pom</packaging>
 
     <groupId>com.alinesno.infra.data</groupId>
-    <artifactId>alinesno-infra-data-quarity-parent</artifactId>
+    <artifactId>alinesno-infra-data-quality-parent</artifactId>
     <version>${revision}</version>
 
     <properties>
@@ -22,15 +22,15 @@
 
     <modules>
         <!-- 应用服务 -->
-        <module>alinesno-infra-data-quarity-facade</module>  <!-- 接口和引用 -->
-        <module>alinesno-infra-data-quarity-domain</module>  <!-- 领域服务 -->
-        <module>alinesno-infra-data-quarity-adapter</module> <!-- 适配层 -->
-        <module>alinesno-infra-data-quarity-api</module>  <!-- 接口服务 -->
-        <module>alinesno-infra-data-quarity-client</module>  <!-- 对外引用 -->
-        <module>alinesno-infra-data-quarity-boot</module>  <!-- 启动服务 -->
+        <module>alinesno-infra-data-quality-facade</module>  <!-- 接口和引用 -->
+        <module>alinesno-infra-data-quality-domain</module>  <!-- 领域服务 -->
+        <module>alinesno-infra-data-quality-adapter</module> <!-- 适配层 -->
+        <module>alinesno-infra-data-quality-api</module>  <!-- 接口服务 -->
+        <module>alinesno-infra-data-quality-client</module>  <!-- 对外引用 -->
+        <module>alinesno-infra-data-quality-boot</module>  <!-- 启动服务 -->
 
         <!-- 前端服务
-        <module>alinesno-infra-data-quarity-admin</module>
+        <module>alinesno-infra-data-quality-admin</module>
         -->
     </modules>
 
